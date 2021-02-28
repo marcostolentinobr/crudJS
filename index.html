@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="styles.css">
+<meta charset="utf8">
+<table>
+    <tr>
+        <td>
+            <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                <div>
+                    <label>Nome</label>
+                    <label class="validation-error hide" id="fullNameValidationError">
+                        Campo obrigatório.
+                    </label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label>CEP</label>
+                    <input type="text" name="cep" id="cep">
+                </div>
+                <div>
+                    <label>Salário</label>
+                    <input type="text" name="salario" id="salario">
+                </div>
+                <div>
+                    <label>Cidade</label>
+                    <input type="text" name="cidade" id="cidade">
+                </div>
+                <div  class="form-action-buttons">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </td>
+        <td>
+            <table class="list" id="employeeList">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>CEP</th>
+                        <th>Salário</th>
+                        <th>Cidade</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </td>
+    </tr>
+</table>
+<script src="script.js"></script>
