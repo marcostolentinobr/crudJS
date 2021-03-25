@@ -1,4 +1,4 @@
-# Exemplo de CRUD em JS puro  
+# Exemplo de CRUD em JS puro sem banco 
   
 ## Autor  
   
